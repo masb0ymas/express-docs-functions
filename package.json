@@ -11,7 +11,7 @@
     "type-check": "npx tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "before-build": "yarn && npm run lint && npm run type-check && npm run clean",
-    "heroku-prebuild": "npm run before-build",
+    "heroku-prebuild": "yarn && npm run clean",
     "build": "npx tsc -p .",
     "release": "standard-version",
     "release:pre": "npm run release -- --prerelease",
