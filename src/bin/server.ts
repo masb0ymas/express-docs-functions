@@ -1,16 +1,18 @@
 #!/usr/bin/env node
-// import fs from 'fs'
-// import path from 'path'
+
 import 'module-alias/register'
 import '../pathAlias'
 
-// const pathEnv = path.resolve('.env')
+import fs from 'fs'
+import path from 'path'
 
-// if (!fs.existsSync(pathEnv)) {
-//   throw new Error(
-//     'Missing env!!!\nCopy / Duplicate ".env.example" root directory to ".env"'
-//   )
-// }
+const pathEnv = path.resolve('.env')
+
+if (!fs.existsSync(pathEnv)) {
+  throw new Error(
+    'Missing env!!!\nCopy / Duplicate ".env.example" root directory to ".env"'
+  )
+}
 
 /**
  * Module dependencies.
