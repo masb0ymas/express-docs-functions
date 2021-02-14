@@ -1,6 +1,7 @@
 {
-  "name": "express-docs-typescript",
+  "name": "express-docs-functions",
   "version": "1.0.0",
+  "description": "Express docs Swagger for Functions Firebase",
   "private": true,
   "scripts": {
     "dev": "nodemon ./src/bin/server.ts",
@@ -13,6 +14,8 @@
     "postinstall": "npm run build",
     "build": "npx tsc -p ."
   },
+  "author": "masb0ymas",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
