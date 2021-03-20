@@ -23,11 +23,13 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "convert-excel-to-json": "^1.7.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "date-fns": "^2.17.0",
     "debug": "^4.3.1",
     "dotenv": "^8.2.0",
+    "exceljs": "^4.2.1",
     "express": "^4.17.1",
     "helmet": "^4.4.1",
     "http-errors": "^1.8.0",
@@ -40,6 +42,7 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
+    "@types/convert-excel-to-json": "^1.7.0",
     "@types/cookie-parser": "^1.4.2",
     "@types/cors": "^2.8.9",
     "@types/dotenv": "^8.2.0",
